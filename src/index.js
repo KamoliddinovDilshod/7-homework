@@ -12,4 +12,5 @@ app.get("/new/:id", getNewsId);
 
 // });
 
-app.listen(9090, console.log(9090));
+const PORT = process.env.PORT || 9090
+app.listen(PORT, console.log(PORT));
